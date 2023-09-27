@@ -21,7 +21,7 @@ public class Main {
         for(int i = 0; i < n; i++) {
             for(int z = i; z < n; z++) {
                 if(Math.abs(arr[i] - arr[z]) == k) {
-                    
+
                     contador++;
                 }
             }
